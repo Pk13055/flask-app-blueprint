@@ -7,8 +7,15 @@ This is a blueprint for multimodule flask apps. The basic skeleton has been setu
 ## How to use
 
 - `git clone https://github.com/Pk13055/flask-app-blueprint.git `
-- `cd flask-app-blueprint `
-- `rm -rf .git* ` (_optional_)
+- `cd flask-app-blueprint`
+- `pipenv install`
+- `rm -rf .git ` (_optional_)
+
+## Environment Variables
+
+- Set `$ENV` to either production or dev
+- Set/unset `$DEBUG` to toggle logging
+- Set `$DATABASE_URL` to access the `DATABASE_URI` from the code
 
 ## Specifications
 
