@@ -1,7 +1,7 @@
 from flask import (Blueprint, request, render_template,
                   flash, g, session, redirect, url_for, jsonify)
 from app import db, models
-import app.Home.helper as helper
+import app.home.helper as helper
 
 
 home = Blueprint('home', __name__, url_prefix='/home')
